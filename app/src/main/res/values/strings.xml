@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="title_activity_start">Hangman</string>
+
+    <!-- Navigation -->
+    <string name="common_title_play">Play</string>
+    <string name="common_title_settings">Settings</string>
+    <string name="common_title_history">History</string>
+
+    <!-- Common -->
+    <string name="common_retry">Retry</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_quit">Quit</string>
+    <string name="common_save">Save</string>
+    <string name="common_saving">Saving…</string>
+    <string name="common_history_date_pattern">MM/dd/yy</string>
+    <string name="common_start">Start</string>
+    <string name="common_share">Share</string>
+    <string name="common_green_square">&#129001;</string>
+    <string name="common_red_square">&#128997;</string>
+
+    <!-- Common Loading -->
+    <string name="common_loading_screen_message">Loading…</string>
+    <string name="common_fetching_word_screen_message">Fetching word of today…</string>
+    <string name="common_retrieving_today_game_screen_message">Retrieving today\'s game if already played…</string>
+    <string name="common_retrieving_game_in_progress_screen_message">Retrieving game in progress…</string>
+    <string name="common_loading_settings">Loading Settings…</string>
+    <string name="common_loading_history">Loading History…</string>
+    <string name="common_loading_details">Loading Game Detail…</string>
+
+    <!-- Common Empty Screens -->
+    <string name="common_empty_history">No game saved yet? Play one now!</string>
+    <string name="common_empty_game_details">Select a game to display its details</string>
+
+    <!-- Common Dialogs -->
+    <string name="common_dialogTitle_unknownError">Unknown error</string>
+    <string name="common_dialogDesc_unknownError">An unknown error occurred (on our side!)</string>
+    <string name="common_dialogTitle_networkError">Network error</string>
+    <string name="common_dialogDesc_networkError">The game servers could not be reached</string>
+
+    <!-- Common Errors -->
+    <string name="common_error_loading_history">An error occurred while loading more history</string>
+
+    <!-- Common Game -->
+    <string name="common_played_letters">Played letters</string>
+    <string name="common_played_time">Played time :</string>
+    <string name="common_success_sharing__one">I found the word of today with %1$d error\n</string>
+    <string name="common_success_sharing__other">I found the word of today with %1$d errors\n</string>
+    <string name="common_failure_sharing__one">I did not found word of today. Can you?\n</string>
+    <string name="common_failure_sharing__other">I did not found word of today. Can you?\n</string>
+    <string name="common_sharing_end_of_message">%1$s\n\nDownload Hangman for Android. https://play.google.com/store/apps/details?id=%2$s</string>
+
+    <!-- Common Settings -->
+    <string name="common_itemTitle_playTime_displayed">Play time displayed</string>
+    <string name="common_itemTitle_playTime_notDisplayed">Play time not displayed</string>
+    <string name="common_itemBody_playTime_description">Should the playtime be displayed during game?</string>
+</resources>

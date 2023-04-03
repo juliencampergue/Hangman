@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="bottom_bar_game_screen_title" translatable="false">@string/common_title_play</string>
+    <string name="bottom_bar_settings_screen_tile" translatable="false">@string/common_title_settings</string>
+    <string name="bottom_bar_history_and_details_screen_title" translatable="false">@string/common_title_history</string>
+
+    <!-- Start Screen -->
+    <string name="splash_loading" translatable="false">@string/common_loading_screen_message</string>
+    <string name="splash_dialogTitle_unknownError" translatable="false">@string/common_dialogTitle_unknownError</string>
+    <string name="splash_dialogDesc_unknownError" translatable="false">@string/common_dialogDesc_unknownError</string>
+    <string name="splash_dialogTitle_networkError" translatable="false">@string/common_dialogTitle_networkError</string>
+    <string name="splash_dialogDesc_networkError" translatable="false">@string/common_dialogDesc_networkError</string>
+    <string name="splash_dialogConfirmButton" translatable="false">@string/common_retry</string>
+    <string name="splash_dialogDismissButton" translatable="false">@string/common_quit</string>
+
+    <!-- Game Screen -->
+    <string name="game_screen_loading" translatable="false">@string/common_fetching_word_screen_message</string>
+    <string name="game_screen_loading_todays_game" translatable="false">@string/common_retrieving_today_game_screen_message</string>
+    <string name="game_screen_loading_current_game" translatable="false">@string/common_retrieving_game_in_progress_screen_message</string>
+    <string name="game_screen_start_game" translatable="false">@string/common_start</string>
+
+    <!-- Game Over Screen -->
+    <string name="game_over_played_letters" translatable="false">@string/common_played_letters</string>
+    <string name="game_over_share_button" translatable="false">@string/common_share</string>
+    <plurals name="game_result_success_sharing" translatable="false">
+        <item quantity="one">@string/common_success_sharing__one</item>
+        <item quantity="other">@string/common_success_sharing__other</item>
+    </plurals>
+    <plurals name="game_result_failure_sharing" translatable="false">
+        <item quantity="one">@string/common_failure_sharing__one</item>
+        <item quantity="other">@string/common_failure_sharing__other</item>
+    </plurals>
+    <string name="sharing_end_of_message" translatable="false">@string/common_sharing_end_of_message</string>
+    <string name="share_good_letter_char" translatable="false">@string/common_green_square</string>
+    <string name="share_bad_letter_char" translatable="false">@string/common_red_square</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_screen_loading" translatable="false">@string/common_loading_settings</string>
+    <string name="settings_screen_saving" translatable="false">@string/common_saving</string>
+    <string name="settings_playtime_active" translatable="false">@string/common_itemTitle_playTime_displayed</string>
+    <string name="settings_playtime_inactive" translatable="false">@string/common_itemTitle_playTime_notDisplayed</string>
+    <string name="settings_playtime_desc" translatable="false">@string/common_itemBody_playTime_description</string>
+    <string name="settings_screen_cancel" translatable="false">@string/common_cancel</string>
+    <string name="settings_screen_save" translatable="false">@string/common_save</string>
+
+    <!-- History Screen -->
+    <string name="history_screen_loading" translatable="false">@string/common_loading_history</string>
+    <string name="history_screen_empty" translatable="false">@string/common_empty_history</string>
+    <string name="history_screen_date_pattern" translatable="false">@string/common_history_date_pattern</string>
+    <string name="history_screen_loading_error" translatable="false">@string/common_error_loading_history</string>
+    <string name="history_screen_retry" translatable="false">@string/common_retry</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_screen_loading" translatable="false">@string/common_loading_details</string>
+    <string name="detail_screen_empty" translatable="false">@string/common_empty_game_details</string>
+</resources>

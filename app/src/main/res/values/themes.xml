@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hangman" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Status bar color still needs to be defined in theme xml -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+</resources>
